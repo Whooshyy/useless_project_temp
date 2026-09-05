@@ -69,32 +69,7 @@ For Software:
 *Here you can see that alerts are triggered when the camera detects hands*
 
 # Diagrams
-+------------------+
-|   Webcam Feed    |
-+--------+---------+
-         |
-         v
-+------------------+       No Violation
-| MediaPipe Vision | -----------------------> [ Normal Video Feed ]
-| (Hands & Pose)   |
-+--------+---------+
-         |
-         | Gesture / Slouch Detected
-         v
-+-------------------------------------------+
-|             im going to the HR
-|                 SIMULATOR
-|  - Check 2-second cooldown timer          |
-|  - Select random meme sound & image pair  |
-|  - Render alert banner & image overlay    |
-|  - Play audio via Pygame                  |
-+--------------------+----------------------+
-                     |
-                     v
-       +----------------------------+
-       |   Punishment Displayed     |
-       |  (Video Window + Speakers) |
-       +----------------------------+
+<img width="827" height="620" alt="image" src="https://github.com/user-attachments/assets/49e209ad-3c7c-472c-b3e9-7c2748ce4bc3" />
 
 
 
