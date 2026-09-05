@@ -2,39 +2,36 @@
 
 
 
-# [Project Name] 🎯
+# I am going to HR simulator 🎯
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: MEC
 
 
 ### Team Members
-- Team Lead: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Team Lead: Adwaith A - Model Engineering College
+- Member 2: Aiswarya Viswanath - Model Engineering College
+
 
 ### Project Description
-[2-3 lines about what your project does]
+I am going to HR simulator is an automated etiquette enforcer that uses computer vision to aggressively penalize casual hand gestures and slouching.
 
 ### The Problem (that doesn't exist)
-[What ridiculous problem are you solving?]
+In a world where natural human conversation is dangerously plagued by expressive hand gestures and comfortable slouching, this provides a completely uncalled-for intervention.
 
 ### The Solution (that nobody asked for)
-[How are you solving it? Keep it fun!]
+It utilizes computer vision to penalize ordinary body language with deafening meme sirens and public shaming alerts, successfully solving the nonexistent crisis of people communicating like normal human beings
 
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
+- Python
+- mediapipe, openCV,pygame
+- mediapipe, OpenCV, Pygame
+- Antigravity IDE, Gemini
 
-For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
+
 
 ### Implementation
 For Software:
