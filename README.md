@@ -11,7 +11,7 @@
 
 ### Team Members
 - Team Lead: Adwaith A - Model Engineering College
-- Member 2: Aiswarya Viswanath - Model Engineering College
+- Member 1: Aiswarya Viswanath - Model Engineering College
 
 
 ### Project Description
