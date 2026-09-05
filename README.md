@@ -37,8 +37,8 @@ For Software:
 For Software:
 # Installation
 # Clone the repository
-git clone [https://github.com/your-username/the-yap-tax.git](https://github.com/your-username/the-yap-tax.git)
-cd the-yap-tax
+git clone https://github.com/Whooshyy/adwaithaiswaryauseless
+cd project
 
 # (Optional but recommended) Create and activate a virtual environment
 python3 -m venv venv
@@ -49,7 +49,7 @@ pip install opencv-python mediapipe pygame numpy
 
 # Run
 # Ensure all meme sound and image files are in the project root directory
-python main.py
+python app.py
 Press q to quit application
 
 ### Project Documentation
