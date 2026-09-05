@@ -36,59 +36,76 @@ For Software:
 ### Implementation
 For Software:
 # Installation
-[commands]
+# Clone the repository
+git clone [https://github.com/your-username/the-yap-tax.git](https://github.com/your-username/the-yap-tax.git)
+cd the-yap-tax
+
+# (Optional but recommended) Create and activate a virtual environment
+python3 -m venv venv
+source venv/bin/activate  # On Windows use: venv\Scripts\activate
+
+# Install required dependencies
+pip install opencv-python mediapipe pygame numpy
 
 # Run
-[commands]
+# Ensure all meme sound and image files are in the project root directory
+python main.py
+Press q to quit application
 
 ### Project Documentation
 For Software:
 
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+<img width="790" height="626" alt="Screenshot 2026-09-05 062422" src="https://github.com/user-attachments/assets/c64973d8-0ae6-4fa0-b529-6da20ef98cd7" />
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
+*Here you can see that alerts are triggered when the camera detects hands*
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+<img width="793" height="629" alt="Screenshot 2026-09-05 062501" src="https://github.com/user-attachments/assets/3e306618-615c-4dcd-b50d-90d3c45c14a3" />
+
+*Here you can see that alerts are triggered when the camera detects slouching*
+
+<img width="795" height="632" alt="Screenshot 2026-09-05 062519" src="https://github.com/user-attachments/assets/42cfb8c2-231c-401d-a4e3-82acd0f24500" />
+
+*Here you can see that alerts are triggered when the camera detects hands*
 
 # Diagrams
-![Workflow](Add your workflow/architecture diagram here)
-*Add caption explaining your workflow*
++------------------+
+|   Webcam Feed    |
++--------+---------+
+         |
+         v
++------------------+       No Violation
+| MediaPipe Vision | -----------------------> [ Normal Video Feed ]
+| (Hands & Pose)   |
++--------+---------+
+         |
+         | Gesture / Slouch Detected
+         v
++-------------------------------------------+
+|             im going to the HR
+|                 SIMULATOR
+|  - Check 2-second cooldown timer          |
+|  - Select random meme sound & image pair  |
+|  - Render alert banner & image overlay    |
+|  - Play audio via Pygame                  |
++--------------------+----------------------+
+                     |
+                     v
+       +----------------------------+
+       |   Punishment Displayed     |
+       |  (Video Window + Speakers) |
+       +----------------------------+
 
-For Hardware:
 
-# Schematic & Circuit
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
 
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
-
-# Build Photos
-![Components](Add photo of your components here)
-*List out all components shown*
-
-![Build](Add photos of build process here)
-*Explain the build steps*
-
-![Final](Add photo of final product here)
-*Explain the final build*
 
 ### Project Demo
 # Video
-[Add your demo video link here]
-*Explain what the video demonstrates*
+(https://drive.google.com/file/d/1p328zZJ7CWkaZe1raGMG9tVCMrg0JhDT/view?usp=sharing)
+*Here you can see that alerts are triggered when the camera detects hands
+and you can see that alerts are triggered when the camera detects slouching*
 
-# Additional Demos
-[Add any extra demo materials/links]
 
-## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
 
 ---
 Made with ❤️ at TinkerHub Useless Projects 
